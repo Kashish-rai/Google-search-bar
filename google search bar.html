@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search-bar</title>
+    <style>
+        *{
+            background-color: rgb(15, 76, 78);
+            
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .search-bar {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            padding: 10px 15px;
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        }
+        .search-bar input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+        .search-bar button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar button img {
+            width: 20px;
+            height: 20px;
+        }
+        .gg-1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(245, 249, 249);
+            
+        }
+       
+    </style>
+</head>
+<body>
+    
+        <div class="gg-1">
+        <h1>Google</h1>
+        <form class="search-bar" action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search Google or type a URL">
+        <button type="submit">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </button>
+        </form>
+
+    
+        
+    </div>
+</body>
+</html>
